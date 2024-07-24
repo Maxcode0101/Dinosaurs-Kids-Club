@@ -8,15 +8,35 @@
     box-sizing: border-box;
 }
 
-header {
+body {
+    font-family: oswald, roboto;
+    font-weight: 300;
+    background-color: olivedrab;
+    color: orange;
+    flex-direction: column;
+}
+
+h1 {
     text-align: center;
     background-color: olivedrab;
     color: orange;
 }
 
-body {
-    font-family: oswald, roboto;
-    font-weight: 300;
+p {
+    text-align: center;
+    background-color: olivedrab;
+    color: orange;
+}
+
+.navbar {
+    list-style-type: none;
+    background-color: whitesmoke;
+    padding: 12 20px;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
 }
 
 #hero {
