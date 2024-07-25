@@ -11,26 +11,27 @@
 body {
     font-family: oswald, roboto;
     font-weight: 300;
-    background-color: olivedrab;
-    color: orange;
+    background-color: rgb(196, 237, 115);
+    color: rgb(198, 130, 5);
     flex-direction: column;
 }
 
 header {
-    tect
-    background-color: olivedrab;
-    color: orange;
+    background-color: rgb(196, 237, 115);
+    color: rgb(198, 130, 5);
     position: fixed;
     z-index: 99;
     width: 100%;
-    display: flex;
     justify-content: space-between;
     align-items: baseline;
+    box-shadow: 0 2px 2px gray;
 }
 
 header a {
     text-decoration: none;
     color: inherit;
+    background-color: rgb(196, 237, 115);
+    color: rgb(198, 130, 5);
 }
 
 h1 {
@@ -45,18 +46,22 @@ p {
 }
 
 #navbar {
+    background-color: rgb(196, 237, 115);
     list-style-type: none;
-    padding: 12 20px;
+    margin-bottom: 2em;
     margin: 0;
     width: 100%;
     display: flex;
-    position: relative;
-    justify-content: space-between;
+    position: sticky;
+    align-items: center;
+    top: 0px;
+    justify-content: space-evenly;
+    padding: 10px 20px;
     font-size: 115%;
 }
 
 .active {
-    border-bottom: 2px solid orange
+    border-bottom: 2px solid rgb(198, 130, 5)
 }
 
 /* Navbar styles */
@@ -66,6 +71,17 @@ nav {
     display: none;
     top: 100%;
 }
+
+#hamburger {
+    padding-right: 2rem;
+    font-size: xx-large;
+    float: right;
+    position: relative;
+    list-style-type: none;
+    letter-spacing: 4px;
+}
+
+
 
 /*Nav toggle */
 #nav-toggle:checked~nav {
@@ -78,16 +94,11 @@ nav {
 
 /* Main section */
 
-main {
-    flex: 1 0 auto;
-    margin-top: 47px;
-}
+
 #hero {
     height: 400px;
     width: 100%;
     background: url('../images/pexels-rdne-8363119.jpg') no-repeat center center/cover;
-    position: relative;
-    margin-top: 0.5cm;
 }
 
 /* footer section */
@@ -104,5 +115,18 @@ main {
 #socials i {
     font-size: 200%;
     padding: 5%;
-    color:honeydew
+    color: grey;
 }
+
+/* media query: Tablets and larger 768px and up */
+@media screen (min width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+}
+    
