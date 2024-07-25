@@ -20,6 +20,9 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -41,6 +44,7 @@ p {
 }
 
 #navbar {
+    background-color: olivedrab;
     list-style-type: none;
     padding: 12 20px;
     margin: 0;
@@ -64,4 +68,18 @@ p {
 }
 
 /* Navbar styles */
+nav {
+    position: absolute;
+    width: 100%;
+    display: none;
+    top: 100%;
+}
 
+/*Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
