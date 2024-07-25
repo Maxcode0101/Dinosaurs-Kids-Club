@@ -16,10 +16,22 @@ body {
     flex-direction: column;
 }
 
+header {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 h1 {
     text-align: center;
     background-color: olivedrab;
     color: orange;
+    text-transform: uppercase;
 }
 
 p {
@@ -28,15 +40,19 @@ p {
     color: orange;
 }
 
-.navbar {
+#navbar {
     list-style-type: none;
-    background-color: whitesmoke;
     padding: 12 20px;
     margin: 0;
     width: 100%;
     display: flex;
     position: relative;
     justify-content: space-between;
+    font-size: 115%;
+}
+
+.active {
+    border-bottom: 2px solid orange
 }
 
 #hero {
@@ -44,6 +60,7 @@ p {
     width: 100%;
     background: url('../images/pexels-rdne-8363119.jpg') no-repeat center center/cover;
     position: relative;
+    margin-top: 0.5cm;
 }
 
 /* Navbar styles */
