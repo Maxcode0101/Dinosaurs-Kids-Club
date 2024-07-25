@@ -36,8 +36,8 @@ header a {
 h1 {
     text-align: center;
     text-transform: uppercase;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    justify-content: center;
 }
 
 p {
@@ -59,14 +59,6 @@ p {
     border-bottom: 2px solid orange
 }
 
-#hero {
-    height: 400px;
-    width: 100%;
-    background: url('../images/pexels-rdne-8363119.jpg') no-repeat center center/cover;
-    position: relative;
-    margin-top: 0.5cm;
-}
-
 /* Navbar styles */
 nav {
     position: absolute;
@@ -82,4 +74,35 @@ nav {
 
 #nav-toggle {
     display: none;
+}
+
+/* Main section */
+
+main {
+    flex: 1 0 auto;
+    margin-top: 47px;
+}
+#hero {
+    height: 400px;
+    width: 100%;
+    background: url('../images/pexels-rdne-8363119.jpg') no-repeat center center/cover;
+    position: relative;
+    margin-top: 0.5cm;
+}
+
+/* footer section */
+
+#socials {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    color: orange;
+}
+
+#socials i {
+    font-size: 200%;
+    padding: 5%;
+    color:honeydew
 }
