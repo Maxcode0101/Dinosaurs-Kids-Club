@@ -101,6 +101,26 @@ nav {
     background: url('../images/pexels-rdne-8363119.jpg') no-repeat center center/cover;
 }
 
+#welcome {
+    background-color: orange;
+    font-size: 100%;
+    position: absolute;
+    bottom: 60px;
+    width: 80%;
+    min-height: 100px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+#welcome > h2, #welcome > h3 {
+    color: antiquewhite;
+}
+
+#section-heading {
+    line-height: 1;
+    font-size: 2.5rem;
+}
+
 /* footer section */
 
 #socials {
