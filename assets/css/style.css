@@ -51,7 +51,6 @@ p {
 #navbar {
     background-color: rgb(196, 237, 115);
     list-style-type: none;
-    margin-bottom: 2em;
     margin: 0;
     width: 100%;
     display: flex;
@@ -99,7 +98,7 @@ nav {
 
 main {
     flex: 1 0 auto;
-    margin-top: 45px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
 }
@@ -115,14 +114,14 @@ main {
     background-color: orange;
     font-size: 100%;
     max-width: 80%;
-    bottom: 70px;
+    bottom: 90px;
     min-height: 60px;
     padding-top: 5px;
     padding-left: 10px;
 }
 
 #welcome > h2, #welcome > h3 {
-    color: antiquewhite;
+    color: whitesmoke;
 }
 
 #section-heading {
@@ -136,6 +135,17 @@ main {
     width: 80%;
     padding-left: 10px;
     margin: 10px 0px 10px 0px;
+}
+
+div > h2 {
+    text-decoration: underline 2px solid;
+}
+
+#text {
+    text-align: center;
+    display: flex;
+    position: absolute;
+    justify-content: space-evenly;
 }
 
 .grid-container {
@@ -195,6 +205,59 @@ footer {
     color: grey;
 }
 
+/* Media query: MOBILE */
+@media only screen and (max-width: 600px) {
+    body {
+        width: 100%;
+        }
+
+    header {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        h1 {
+            font-size: 100%;
+            text-align: left;
+            margin: 5px 5px 5px 5px;
+        }
+        
+        p {
+            display: none;
+            text-align: center;
+            font-size: 70%;
+            padding-left: 5px;
+            padding-bottom: 2.5px;
+        }
+
+        #hero {
+            max-width: 100%;
+            overflow: hidden;
+        }
+
+        #welcome {
+            position: inherit;
+            opacity: 0.8;
+            background-color: orange;
+            font-size: 50%;
+            max-width: 70%;
+            bottom: 70px;
+            max-height: 50px;
+        }
+
+        #welcome > h2, #welcome > h3 {
+            color: black;
+        }
+
+        .grid-container {
+            grid-template-columns: 1fr;
+            grid-template-rows: 0.4fr 0.4fr 0.4fr 0.4fr;
+            grid-template-areas:
+      "image1" "image2" "image3" "image4"
+      "text" "text" "text" "text"
+        }
+}
+
 /* media query: Tablets and larger 768px and up */
 @media screen (min width: 768px) {
     /* Header */
@@ -213,5 +276,11 @@ footer {
     #navbar > li {
         padding-left: 1rem;
     }
+
+    main {
+        margin-top: 100px;
+    }
+
+    #hero
 }
     
