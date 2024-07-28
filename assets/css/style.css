@@ -107,6 +107,7 @@ main {
     min-height: 400px;
     width: 100%;
     background: url('../images/pexels-rdne-8363119.jpg') no-repeat center center/cover;
+    position: relative;
 }
 
 #welcome {
@@ -276,20 +277,6 @@ footer {
         #hero {
             max-width: 100%;
             overflow: hidden;
-        }
-
-        #welcome {
-            position: inherit;
-            opacity: 0.8;
-            background-color: orange;
-            font-size: 50%;
-            max-width: 70%;
-            bottom: 70px;
-            max-height: 50px;
-        }
-
-        #welcome > h2, #welcome > h3 {
-            color: black;
         }
 
         .grid-container {
