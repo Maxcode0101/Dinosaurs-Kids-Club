@@ -18,32 +18,41 @@
 </head>
 
 <body>
-    <!-- Header -->
-    <header>
-        <a href="index.html">
-            <h1 id="logo">Dinosaurs-Kids-Club</h1>
-            <p>Online-Science-Club for kids, who are interested in dinosaurs and fossils</p>
-        </a>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label">X</label>
-        <nav>
-            <ul id="navbar">
-                <li><a href="index.html">About us</a></li>
-                <li><a href="member.html" class="active">Member</a></li>
-                <li><a href="dinosaurs.html">Meet the dinosaurs</a></li>
-            </ul>
-        </nav>
-    </header>
+   <!-- Header -->
+   <header>
+    <a href="index.html">
+        <h1 id="logo">Dinosaurs-Kids-Club</h1>
+        <p>Online-Science-Club for kids, who are interested in dinosaurs and fossils</p>
+    </a>
+    <input type="checkbox" id="nav-toggle" name="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label">
+        <i id="hamburger" class="fa-solid fa-burger"></i>
+    </label>
+    <nav>
+        <ul id="navbar">
+            <li><a href="index.html">About us</a></li>
+            <li><a href="member.html" class="active">Member</a></li>
+            <li><a href="dinosaurs.html">Meet the dinosaurs</a></li>
+        </ul>
+    </nav>
+</header>
 
     <!-- Main content -->
     <main>
-        <section id="hero">
-        </section>
-        <section>
-            what we offer
-        </section>
-        <section>
-            timebar
+        <section id="member">
+            <form id="signup-form" form-action="confirmation.html">
+                <h2><i class="fa-solid fa-people-roof"></i>Join the club!</h2>
+                <label for="first-name">First Name</label>
+                <input type="text" name="first_name" id="first-name" class="text-input" required>
+                <br>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last_name" id="last-name" class="text-input" required>
+                <br>
+                <label for="email-address">Email Address</label>
+                <input type="email" name="email_address" id="email-address" class="text-input" required>
+                <br>
+                <button type="join" class="join-button">Join the Dinos!</button>
+            </form>
         </section>
     </main>
 
