@@ -225,6 +225,14 @@ div > h2 {
     background-color: #454b1b;
     color: #fafafa;
 }
+
+/* MEET THE DINOSAURS */
+
+#dinosaurs {
+    margin-top: 60px;
+    text-align: center;
+    display: inline-block;
+}
   
 /* footer section */
 
