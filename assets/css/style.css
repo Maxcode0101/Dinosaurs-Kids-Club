@@ -122,7 +122,8 @@ main {
     padding-left: 10px;
 }
 
-#welcome > h2, #welcome > h3 {
+#welcome>h2,
+#welcome>h3 {
     color: #FFFFFF;
 }
 
@@ -131,15 +132,15 @@ main {
     font-size: 2.5rem;
 }
 
-#offer > h2 {
-    color:  rgb(198, 130, 5);
+#offer>h2 {
+    color: rgb(198, 130, 5);
     font-size: 100%;
     width: 80%;
     padding-left: 10px;
     margin: 10px 0px 10px 0px;
 }
 
-div > h2 {
+div>h2 {
     text-decoration: underline 2px solid;
 }
 
@@ -155,35 +156,39 @@ div > h2 {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
     grid-template-areas:
-      "image1 image2 image2 image4"
-      "text text text text";
+        "image1 image2 image2 image4"
+        "text text text text";
     text-align: center;
-  }
-  
-  .image1 {
+}
+
+.image1 {
     grid-area: image1;
     width: 100%;
     object-fit: cover;
-  }
+}
 
-  .image2 {
+.image2 {
     grid-area: image2;
     width: 100%;
     object-fit: cover;
-  }
+}
 
-  .image3 {
+.image3 {
     grid-area: image3;
     width: 100%;
     object-fit: cover;
-  }
+}
 
-  .image4 {
+.image4 {
     grid-area: image1;
     width: 100%;
     object-fit: cover;
     height: 166px;
-  }
+}
+
+.grid-container img {
+    height: 150px;
+}
 
 /* Member */
 #member {
@@ -229,56 +234,41 @@ div > h2 {
     color: #fafafa;
 }
 
+#confirmation {
+    display: flex;
+    text-align: center;
+    margin-top: 160px;
+}
+
 /* MEET THE DINOSAURS */
 
 #dinosaurs {
     margin-top: 60px;
     margin-bottom: 30px;
     text-align: center;
-    display:inline-block;
+    display: inline-block;
     padding: 0px 10px 0px 10px;
 }
- 
-.brachio {
-     padding-bottom: 15px;
- }
 
-#trex {
-    margin-top: 80px;
- }
- 
-.trex {
-     padding-bottom: 15px;
- }
-
-#Triceratops {
-   margin-top: 80px;
-}
-
-.Triceratops {
+.brachio,
+.trex,
+.Triceratops,
+.spino,
+.Archaeopteryx {
     padding-bottom: 15px;
 }
 
-#spino {
+#trex,
+#Triceratops,
+#spino,
+#Archaeopteryx {
     margin-top: 80px;
- }
- 
-.spino {
-     padding-bottom: 15px;
- }
-
- #Archaeopteryx {
-    margin-top: 80px;
- }
- 
- .Archaeopteryx {
-     padding-bottom: 15px;
- }
+}
 
 #specifics {
     padding: 10px 0px 10px 0px;
 }
-  
+
 /* footer section */
 
 footer {
@@ -306,90 +296,68 @@ footer {
 @media only screen and (max-width: 600px) {
     body {
         width: 100%;
-        }
+    }
 
-        h1 {
-            text-align: left;
-            margin: 5px 5px 5px 5px;
-        }
-        
-        p {
-            text-align: center;
-            font-size: 70%;
-            padding-left: 5px;
-            padding-bottom: 2.5px;
-        }
+    h1 {
+        text-align: left;
+        margin: 5px 5px 5px 5px;
+    }
 
-        #hero {
-            max-width: 100%;
-            overflow: hidden;
-        }
+    p {
+        text-align: center;
+        font-size: 70%;
+        padding-left: 5px;
+        padding-bottom: 2.5px;
+    }
 
-        #welcome {
-            font-size: 80%;
-            max-width: 100%;
-            min-height: 40px;
-            bottom: 20px;
-        }
+    #hero {
+        max-width: 100%;
+        overflow: hidden;
+    }
 
-        .grid-container {
-            grid-template-columns: 1fr;
-            grid-template-rows: 0.4fr 0.4fr 0.4fr 0.4fr;
-            grid-template-areas:
-      "image1" "image2" "image3" "image4"
-      "text" "text" "text" "text"
-        }
+    #welcome {
+        font-size: 80%;
+        max-width: 100%;
+        min-height: 40px;
+        bottom: 20px;
+    }
 
-        #dinosaurs {
-            margin-top: 120px;
-        }
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.4fr 0.4fr 0.4fr 0.4fr;
+        grid-template-areas:
+            "image1""image2""image3""image4"
+            "text""text""text""text"
+    }
 
-        .brachio {
-            width: 300px;
-        }
+    #dinosaurs {
+        margin-top: 120px;
+    }
 
-        .trex {
-            width: 300px;
-        }
-
-        .Triceratops {
-            width: 300px;
-        }
-
-        .spino {
-            width: 300px;
-        }
-
-        .Archaeopteryx {
-            width: 300px;
-        }
+    .brachio,
+    .trex,
+    .Triceratops,
+    .spino,
+    .Archaeopteryx {
+        width: 300px;
+    }
 }
 
 /* media query: Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 601px) {
-    .brachio {
-        width: 600px;
-    }
 
-    .trex {
-        width: 600px;
-    }
-
-    .Triceratops {
-        width: 600px;
-    }
-
-    .spino {
-        width: 600px;
-    }
-
+    .brachio,
+    .trex,
+    .Triceratops,
+    .spino,
     .Archaeopteryx {
-        width: 600px;
+        width: 550px;
     }
 }
 
 /* media query: Tablets and larger 768px and up */
 @media screen (min width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -399,7 +367,7 @@ footer {
         padding-right: 1rem;
     }
 
-    #navbar > li {
+    #navbar>li {
         padding-left: 1rem;
     }
 
@@ -412,5 +380,4 @@ footer {
         min-width: 100%;
         min-height: 20px;
         bottom: 10px;
-}
-    
+    }
