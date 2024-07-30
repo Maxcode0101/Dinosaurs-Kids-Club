@@ -240,6 +240,12 @@ div>h2 {
     margin-top: 160px;
 }
 
+#error {
+    display: flex;
+    text-align: center;
+    margin-top: 160px;
+}
+
 /* MEET THE DINOSAURS */
 
 #dinosaurs {
