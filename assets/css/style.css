@@ -237,13 +237,14 @@ div>h2 {
 #confirmation {
     display: flex;
     text-align: center;
-    margin-top: 160px;
+    margin: 160px 60px 160px 60px;
 }
 
 #error {
+    font-size: 130%;
     display: flex;
     text-align: center;
-    margin-top: 160px;
+    margin: 160px 60px 160px 60px;
 }
 
 /* MEET THE DINOSAURS */
