@@ -99,6 +99,10 @@ nav {
     background-color: #FFFFFF;
 }
 
+.page:hover {
+    background-color: #FFFFFF;
+}
+
 #page2:hover {
     background-color: grey;
 }

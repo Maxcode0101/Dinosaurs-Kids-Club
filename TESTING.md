@@ -35,14 +35,13 @@ User Experience and Usability Testing:
 I was sending the deployed link to three independent test-users.
 
 Feedback-User1 (Iphone 8 with Safari Browser): Everything works well, website is easy to use. Submitting of form was working well." 
-----SCREENSHOT----
 
 
 Feedback-User2 (Iphone Safari Browser): "With Safari on the Iphone everythings alright during a fast check"
-----SCREENSHOT----
 
-Feedback-User3 (Samsung)
-----SCREENSHOT----
+
+Feedback-User3 (SamsungS20 with Chrome-Browser): "Could navigate through the website easily"
+
 
 During the User-Testing no issues have been encountered.
 
@@ -57,57 +56,43 @@ While testing the alt-attributes of the images I´ve found brachio and spino to 
 
 While testing the keyboard navigation, I´ve encountered that the Burger-Icon isn´t accessible via keyboad-navigation. I´ve decided to not focus on fixing the bug. I found it to be a problem of a very limited audience, as most users are going to access the page via Smartphone, Tablet, Laptop or Desktop-Computer with mouse. The benefit ist to small to justify the effort in my opinion.
 
+
 Compatibility Testing:
 
-- Chrome-Browser:
+- Chrome-Browser
 
-- Firefox Developer Edition:
+- Firefox Developer Edition
 
-- Safari:
+- Safari
 
-- Browser Compatibility: Testing on different browsers (Chrome, Firefox, Safari, Edge, etc.) to ensure consistent performance.
-- Device Compatibility: Ensuring functionality across various devices (desktops, laptops, tablets, and mobile phones).
-- Performance Testing (optional):
-	- Speed and Load Testing: Tools like PageSpeed Insights or GTmetrix to check page load times and optimize where necessary.
-	- Scalability Testing: Assess how the site handles increased traffic or usage.
+
+
+Performance Testing:
+	
+---Screenshot---
 
 Regression Testing:
 
-After implementing fixes or updates, ensure that previous features and functionalities still work as intended. This prevents new changes from breaking existing features.
+Changes have been made to the alt attributes which have been tested and don´t effect the page in any way.
 
-Documentation and Logs:
 
-Maintain records of testing procedures, results, and any bugs encountered along with their resolutions. This helps demonstrate a systematic approach to testing and problem-solving.
-User Feedback Incorporation:
-
-If applicable, mention how user feedback has been taken into account and implemented to enhance the user experience.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
 
 ## Code Validation
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
 
-Use the space to discuss code validation for any of your own code files (where applicable).
-You are not required to validate external libraries/frameworks, such as imported Bootstrap, Materialize, Font Awesome, etc.
-
-**IMPORTANT**: You must provide a screenshot for each file you validate.
-
-**PRO TIP**: Always validate the live site pages, not your local code. There could be subtle/hidden differences.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
 
 ### HTML
 
 I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
 
+
 | Directory | File | Screenshot | Notes |
 | --- | --- | --- | --- |
-|  | 404.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-|  | confirmation.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-|  | dinosaurs.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-|  | index.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-|  | member.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+|  | 404.html | ![screenshot](documentation/validation_404.png) | |
+|  | confirmation.html | ![screenshot](documentation/validation_confirmation.png) | |
+|  | dinosaurs.html | ![screenshot](documentation/validation_dinosaurs.png) | |
+|  | index.html | ![screenshot](documentation/Index.html1.png) | |
+|  | member.html | ![screenshot](documentation/validation_member.png) | |
 
 ### CSS
 
@@ -115,7 +100,7 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 | Directory | File | Screenshot | Notes |
 | --- | --- | --- | --- |
-| assets | style.css | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| assets | style.css | ![screenshot](documentation/validation_css.png) | |
 
 ## Browser Compatibility
 
