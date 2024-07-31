@@ -111,7 +111,7 @@ Browsers tested:
 
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
-| Browser | Home | About | Contact | etc | Notes |
+| Browser | About us | Member | Meet the dinosaurs | confirmation |
 | --- | --- | --- | --- | --- | --- |
 | Chrome | ![screenshot](documentation/chrome_home.png) | ![screenshot](documentation/chrome_member.png) | ![screenshot](documentation/chrome_dinosaurs.png) | ![screenshot](documentation/chrome_confirmation.png) | Works as expected |
 | Firefox | ![screenshot](documentation/firefox_home.png) | ![screenshot](documentation/firefox_members.png) | ![screenshot](documentation/firefox_dinosaurs.png) | ![screenshot](documentation/firefox_confirmation.png) | Works as expected |
@@ -120,7 +120,7 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 ## Responsiveness
 
-| Device | Home | About | Contact | etc | Notes |
+| Device | About us | Member | Meet the dinosaurs | confirmation |
 | --- | --- | --- | --- | --- | --- |
 | Mobile (DevTools) | ![screenshot](documentation/mobile_home.png) | ![screenshot](documentation/mobile_member.png) | ![screenshot](documentation/mobile_dinosaurs.png) | ![screenshot](documentation/mobile_confirmation.png) | Works as expected |
 | Tablet (DevTools) | ![screenshot](documentation/tablet_home.png) | ![screenshot](documentation/tablet_member.png) | ![screenshot](documentation/tablet_dinosaurs.png) | ![screenshot](documentation/tablet_confirmation.png) | Works as expected |
@@ -131,11 +131,11 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
 
-| Page | Mobile | Desktop | Notes |
+| Page | Mobile | Desktop |
 | --- | --- | --- | --- |
 | About us | ![screenshot](documentation/lh_home_mobile.png) | ![screenshot](documentation/lh_home_desktop.png) | Some minor warnings |
 | Member | ![screenshot](documentation/lh_member_mobile.png) | ![screenshot](documentation/lh_member_desktop.png) | Some minor warnings |
-| Meet the dinosaurs | ![screenshot](documentation/lh_dinosaurs_mobile.png) | ![screenshot](documentation/lh_dinosaurs_desktop.png) | Slow response time due to large images |
+| Meet the dinosaurs | ![screenshot](documentation/lh_dinosaurs_mobile.png) | ![screenshot](documentation/lh-dinosaurs_desktop.png) | Slow response time due to large images |
 
 
 ## Bugs
