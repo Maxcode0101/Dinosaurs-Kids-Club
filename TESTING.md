@@ -151,5 +151,7 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 While testing the keyboard navigation, I´ve encountered that the Burger-Menu isn´t accessible via keyboad-navigation. I´ve decided to not focus on fixing the bug. I found it to be a problem of a very limited audience, as most users are going to access the page via Smartphone, Tablet, Laptop or Desktop-Computer with mouse. The benefit ist to small to justify the effort in my opinion.
 
+By accident I wrote "git push" inside one of the commit messages. I´m aware of it, in order to not risk a bigger error, I´m not trying to repair it though.
+
 > [!NOTE]  
 > There are no remaining bugs that I am aware of.
